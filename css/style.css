@@ -144,3 +144,22 @@ img {
     }
 
 }
+
+/*mobile: dai 480px in giù*/
+
+@media only screen and (max-width: 480px) {
+
+    .container {
+        display: block;
+    }
+
+    .row {
+        
+    }
+
+    .col {
+        display: block;
+        width: 100%;
+    }
+
+}
