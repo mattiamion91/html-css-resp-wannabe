@@ -129,7 +129,7 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
-/*tablet: dai 768px in giù*/
+/*desktop: dai 768px in su per correggere l'h1 che non rimane allineato e il bg-color rosa che non si espandeva*/
 
 @media only screen and (min-width: 769px) {
 
@@ -139,6 +139,8 @@ img {
     }
 
 }
+
+/*tablet: dai 768px in giù*/
 
 @media only screen and (max-width: 768px) {
 
@@ -167,7 +169,7 @@ img {
         display: block;
         width: 100%;
     }
-
+/* ho reso tutti gli elementi colonna con una width al 100% in modo tale che il display block li mostri con la larghezza che prende tutto il contenitore*/
     .why-us .col-left,
     .why-us .col-right,
     .steps .col,
