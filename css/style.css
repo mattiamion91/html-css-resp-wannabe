@@ -132,9 +132,12 @@ img {
 /*tablet: dai 768px in giù*/
 
 @media only screen and (min-width: 769px) {
-    
+
     .container {
-    width: 100%};
+        padding: 0 15%;
+        width: 100%;
+    }
+
 }
 
 @media only screen and (max-width: 768px) {
@@ -165,7 +168,10 @@ img {
         width: 100%;
     }
 
-    .why-us .col-left, .why-us .col-right, .steps .col, .lessons .col {
+    .why-us .col-left,
+    .why-us .col-right,
+    .steps .col,
+    .lessons .col {
         width: 100%;
     }
 }
